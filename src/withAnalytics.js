@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 import { trackPage } from './utils';
 
-const withAnalyticsCreator = (Component, options = {}) =>
+const withAnalyticsCreator = (options = {})  => Component =>
   class WithAnalytics extends React.PureComponent {
     static propTypes = {
       location: PropTypes.shape({

@@ -2,7 +2,7 @@
   "license": "MIT",
   "name": "react-with-analytics",
   "description": "Google Analytics for React apps with ease.",
-  "version": "0.0.6",
+  "version": "0.0.7,
   "main": "lib/index.js",
   "dependencies": {
     "prop-types": "15.6.2"
