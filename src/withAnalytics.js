@@ -23,7 +23,7 @@ const withAnalyticsCreator = (options = {})  => Component =>
       const currentPage = this.props.location.pathname;
       const nextPage = nextProps.location.pathname;
       if (currentPage !== nextPage) { 
-        trackPage(`${this.baseRoute}${page}`);
+        trackPage(`${this.baseRoute}${nextPage}`);
       }
     }
 
